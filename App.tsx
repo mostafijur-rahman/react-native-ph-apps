@@ -5,15 +5,12 @@ import {
 } from 'react-native';
 
 import DepositChallanCreateEdit from './components/deposit_challan/CreateEdit';
+import DepositChallanList from './components/deposit_challan/List';
 
 function App() {
   return (
     <SafeAreaView>
-      <ScrollView>
-
-        <DepositChallanCreateEdit/>
-        
-      </ScrollView>
+        <DepositChallanList/>
     </SafeAreaView>
   );
 }
